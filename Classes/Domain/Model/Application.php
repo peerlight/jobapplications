@@ -163,9 +163,9 @@
 		/**
 		 * addressPostCode
 		 *
-		 * @var int
+		 * @var string
 		 */
-		protected $addressPostCode = 0;
+		protected $addressPostCode = '';
 
 		/**
 		 * addressCity
@@ -543,8 +543,7 @@
 		/**
 		 * Returns the addressPostCode
 		 *
-		 * @TYPO3\CMS\Extbase\Annotation\Validate("NumberValidator")
-		 * @return int $addressPostCode
+		 * @return string $addressPostCode
 		 */
 		public function getAddressPostCode()
 		{
@@ -554,7 +553,7 @@
 		/**
 		 * Sets the addressPostCode
 		 *
-		 * @param int $addressPostCode
+		 * @param string $addressPostCode
 		 *
 		 * @return void
 		 */
