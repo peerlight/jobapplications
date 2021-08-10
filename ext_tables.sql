@@ -74,7 +74,7 @@ CREATE TABLE tx_jobapplications_domain_model_application
     phone                     varchar(255)         DEFAULT ''  NOT NULL,
     address_street_and_number varchar(255)         DEFAULT ''  NOT NULL,
     address_addition          varchar(255)         DEFAULT ''  NOT NULL,
-    address_post_code         int(11)              DEFAULT '0' NOT NULL,
+    address_post_code         varchar(255)         DEFAULT ''  NOT NULL,
     address_city              varchar(255)         DEFAULT ''  NOT NULL,
     address_country           varchar(255)         DEFAULT ''  NOT NULL,
     salary_expectation        varchar(255)         DEFAULT ''  NOT NULL,
